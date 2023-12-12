@@ -1,0 +1,66 @@
+/* Adicione estilos conforme necessário */
+
+h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+section ul {
+  font-size: 16pt;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, section, footer {
+  margin: 20px;
+  padding: 20px;
+  border: outset;
+  border-radius: 6px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+section p {
+  font-size: 16pt;
+  text-align: justify;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
