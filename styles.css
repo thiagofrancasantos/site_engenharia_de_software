@@ -1,8 +1,14 @@
 /* Adicione estilos conforme necessário */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 
 h2 {
-  background-color: black;
-  color: white;
+  background-color: #157D27;
+  color: #FFFFFF;
   text-align: center;
   padding: 8px;
   border-radius: 8px;
@@ -11,29 +17,47 @@ h2 {
 section ul {
   font-size: 16pt;
 }
-
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
+section{
+  margin: 6rem 3rem;
 }
 
-header, nav, section, footer {
-  margin: 20px;
-  padding: 20px;
-  border: outset;
-  border-radius: 6px;
+header{
+  background-color: #157D27;
+  margin: 0;
+  margin-bottom: 5rem;
+  border: none;
+  padding-top: 1rem;
+}
+
+h1{
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+nav{
+  border: none;
+  margin: 0;
+  background-color: #00420C;
+  padding: .1rem;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav li {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 10px 20px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1rem;
 }
 
 section {
@@ -61,6 +85,12 @@ th, td {
 }
 
 footer {
-  margin-top: 20px;
+  margin: 2.5rem 0;
+  margin-bottom: 0;
   text-align: center;
+  background-color: #034811;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 6px;
 }
+
