@@ -113,9 +113,12 @@ th, td {
   background-color: rgb(4, 92, 33);
 }
 
+main{
+  margin-bottom: 0;
+}
+
 footer {
-  margin: 0;
-  margin-top: 2rem;
+  margin: 4rem 0 0 0;
   text-align: center;
   background-color: #034811;
   color: #FFFFFF;
