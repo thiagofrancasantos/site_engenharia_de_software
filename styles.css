@@ -2,6 +2,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  display: relative;
 }
 
 header{
@@ -97,13 +98,31 @@ th, td {
   text-align: left;
 }
 
+#back-to-top{
+  display: block;
+  padding: 1rem;
+  margin: 1rem 1.5rem;
+  background-color: #157D27;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 1rem;
+}
+
+#back-to-top:hover{
+  cursor: pointer;
+  background-color: rgb(4, 92, 33);
+}
+
 footer {
-  margin: 2.5rem 0;
-  margin-bottom: 0;
+  margin: 0;
+  margin-top: 2rem;
   text-align: center;
   background-color: #034811;
   color: #FFFFFF;
   padding: 20px;
   border-radius: 6px;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: end center;
 }
 
