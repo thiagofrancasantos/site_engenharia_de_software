@@ -50,6 +50,20 @@ nav ul {
   justify-content: center;
 }
 
+#btnTopo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 nav li {
   margin: 10px 20px;
   padding-left: 3px;
@@ -107,3 +121,133 @@ footer {
   border-radius: 6px;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: relative;
+}
+
+header{
+  background-color: #157D27;
+  margin: 0;
+  margin-bottom: 6rem;
+  border: none;
+  padding-top: 1rem;
+}
+
+header p{
+  color: #FFFFFF;
+  text-indent: 1.5rem;
+  font-size: .95rem;
+}
+
+h1{
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 0;
+  font-weight: 1000;
+  font-size: 2.5rem;
+}
+
+nav{
+  border: none;
+  margin: 0;
+  background-color: #00420C;
+  padding: .1rem;
+}
+
+.button{
+  border-left: 3px solid #00420C;
+}
+
+.button:hover{
+  border-left: 3px solid #157D27;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav li {
+  margin: 10px 20px;
+  padding-left: 3px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+section{
+  margin: 6rem 4rem;
+}
+
+h2 {
+  background-color: #157D27;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+section ul {
+  font-size: 16pt;
+}
+
+section p {
+  font-size: 16pt;
+  text-align: justify;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+#back-to-top{
+  display: block;
+  padding: 1rem;
+  margin: 1rem 1.5rem;
+  background-color: #157D27;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 1rem;
+}
+
+#back-to-top:hover{
+  cursor: pointer;
+  background-color: rgb(4, 92, 33);
+}
+
+main{
+  margin-bottom: 0;
+}
+
+footer {
+  margin: 4rem 0 0 0;
+  text-align: center;
+  background-color: #034811;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: end center;
+}
